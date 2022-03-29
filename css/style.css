@@ -1,6 +1,4 @@
-HEAD:css/style.css
-
-body{
+.body{
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(236, 222, 204);
     max-width: 1000px;
@@ -11,10 +9,11 @@ body{
 
   /* global style changes */
 
-  h1, h2, h3, h4, h5, h6, h7 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
-}
+  
+    h1, h2, h3, h4, h5 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+    }
 
     p {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,7 +25,13 @@ body{
             align-items: center;  
         }
                               
-                                
+            .footer{
+
+            display: inline-block;
+            width: 100%;
+        }       
+        
+        
 /* different layout changes */
 
 .GameBar {
@@ -36,13 +41,13 @@ body{
     min-height: 300px;
 }
 
-    nav {
+    .nav {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-        nav a {
+        .nav a {
             text-decoration: none;
             color: none;
             padding: 10px;
@@ -53,7 +58,8 @@ body{
                 border: 4px solid red;
                 border-radius: 15px;
                 margin: 10px 0 0 10px;
-                border-radius: 25%;     
+                border-radius: 25%; 
+                justify-content: center;    
             }
 
                 .headline{
@@ -63,5 +69,81 @@ body{
                 }                         
 
 
+/* homepage */
 
-  
+.main{
+
+    float: left;
+    width: 70%;
+    display: block;
+    min-height: 300px;
+
+}
+
+    .aside{
+        float: right;
+        width: 28%;
+        display: block;
+        min-height: 300px;
+    }
+       
+    
+/* contact-page */
+    
+    .gif-contact{
+
+        width: 100%;
+        border: 4px solid red;
+        border-radius: 15px;
+        margin: 10px 0 0 10px;
+        border-radius: 25%; 
+        justify-content: center; 
+    }
+
+    .main-contact{
+
+        float: left;
+        width: 70%;
+        display: block;
+        min-height: 300px;
+    
+    }
+
+    .body-contact{
+
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(236, 222, 204);
+        max-width: 1000px;
+        float: none;
+        margin: auto;
+    }
+
+/* about-page */
+    
+    .main-about{
+
+        float: left;
+        width: 70%;
+        display: block;
+        min-height: 300px;
+    
+    }
+
+    .gif-about{
+
+        width: 100%;
+        border: 4px solid red;
+        border-radius: 15px;
+        margin: 10px 0 0 10px;
+        border-radius: 25%; 
+        justify-content: center;
+    }
+
+    .body-about{
+
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(236, 222, 204);
+        max-width: 1000px;
+        float: none;
+        margin: auto;
+    }
