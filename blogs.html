@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LK Blogs | Blog</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./screenshots/Coding.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="javascript" href="./javascript/main.js" />
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header" id="header">
+
+        <nav.navbar.container>
+
+            <a href="./index.html">
+                <h2 class="logo">LK Blogs</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                </ul>
+            </div>
+        </nav.navbar.container>
+    </header>
+
+    <!--Sections Blog Posts-->
+    <section class="blog-post section-header-offset">
+
+        <div class="blog-post-container container">
+
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Whats New?</h3>
+                <div class="article-data">
+                    <span>19.07.2022</span>
+                    <span class="article-dater-spacer"></span>
+                    <span>alot to read ^^</span>
+                </div>
+                <img src="./screenshots/Webpage.png" alt="" />
+            </div>
+
+             <!--Trigger the Modal 
+            <img id="myImg" src="./screenshots/Webpage.png" alt="Old Webpage" style="width:100%;max-width:300px">
+
+             The Modal 
+            <div id="myModal" class="modal">
+
+                 The Close Button 
+                <span class="close">&times;</span>
+
+                 Modal Content (The Image) 
+                <img class="modal-content" id="img01">
+
+                 Modal Caption (Image Text) 
+                <div id="caption"></div>
+            </div>-->
+
+            <div class="container">
+                <p>Since the last refactor of the webpage, 5 months ago i suppose, alot have changed. As usual i forget to make a screenshot of the last webpage and i only have this one from jannuary or februar. </p>
+                <p>The last webpage was already a refactor from this one and i changed a lot in the style and so on. This is my final webpage i only will changed logic and put more logic in it with javascript and more blogposts aswell.</p>
+                <p>Now i have time for this cause the Wifi Course takes a lot of free time. But i passed it with a good grade. And now the "Coding School Wörthersee" is wating for me my new challenge and adventure in the real world. :D </p>
+                <p>The starts in September and i am so excited. Its a course about Webdev. with Javascript,Html,Css,MySql and so on. I think.. no i know it will be cool.</p>
+                <p>I am a bit rusty about Html and Css it was a bit of a challenge to read threw the scripts and reworked it but with some Documentations Websides and some short Youtube videos i was ready to refactor the whole webpage and finished it. I will continue to write post about my journy in development. Especially when i begin with the Coding School!</p>
+            </div>
+            <div class="author d-grid">
+                <div class="author-image-box">
+                    <img src="./screenshots/index.jpg" alt="" class="article-image">
+                </div>
+                <div class="author-about">
+                    <h3 class="author-name">Lukas Koch/Grudok</h3>
+                    <p>My name is Lukas Koch i am 27 years old and worked since i was 18 in the health sector. On my twenty-seventh birthday i desided to switch to the Software development.</p>
+                    <p>My girlfriend is my fan and supporter in this desicion and without her i would not be able to go this far. She is a true shieldmaiden who stands besides hers viking warrior friend.. :).</p>
+                </div>
+            </div>
+        </div>
+        <div class="blog-post-container container">
+
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">The Unity Project and all its horror.</h3>
+                <div class="article-data">
+                    <span>19.07.2022</span>
+                    <span class="article-dater-spacer"></span>
+                    <span>alot to read ^^</span>
+                </div>
+                <img src="./screenshots/Gamescreenshot01.png" alt="" />
+
+                <!-- Images used to open the lightbox -->
+                <div class="row">
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot01.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot02.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot03.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot04.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot04.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot05.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot06.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./screenshots/Gamescreenshot07.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                </div>
+
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="./screenshots/Gamescreenshot01.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="./screenshots/Gamescreenshot02.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="./screenshots/Gamescreenshot03.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 7</div>
+                            <img src="./screenshots/Gamescreenshot04.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 7</div>
+                            <img src="./screenshots/Gamescreenshot05.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 7</div>
+                            <img src="./screenshots/Gamescreenshot06.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 7</div>
+                            <img src="./screenshots/Gamescreenshot07.png" style="width:100%">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+               <p>
+                    Well.. were should i start ^^. I started with this project early March. 2 or 3 Weeks after the start of the Wifi course. The Wifi course was a Base programming course with C# and .netFramework.
+                    Everyone in the course had to make a project to actually pass the exam. And i said "I make a video game!". Yeah it was more than a horror trip for me. 
+               </p>
+               <p>
+                   The problem was that this kind of project was to complex for a beginner as i am to make in about 4 months something cool and actually something working to show of for a exam.
+                   So. I developt the whole game in the Unity Engine and with Visual Studio as the script editor. First i started with a simple 2D Game with some free Assets from the Unity Asset Store. 2 Weeks later i desieded to refactor the whole project from scratch and make a 3D game like Diablo with a isometric view and an abillty based combat system.
+                   Then i refactor the WHOLE Game and make a 3D game with Third Person view with an Action Orientaded combat system. And this would be the project. With this project i made it and i passed the exam. I refactored the whole project 3 times from scratch rewrote the whole logic of it and redesigend it.
+                   Kind of silly you think? Yes... 
+               </p>
+                <p>
+                    By the way the screenshot are all up to date. So. I tell you something about the logic system and the code i wrote. There is 1 Baseclass the CharacterManager who has all logic for the player and enemy. For example Health,Stamina,Attacks,Animations,Inventory, and so on.
+                    The PlayerManager and the EnemyManager derives from the CharacterManager script cause some of the logic the Player and Enemy shares and with one BaseClass i dont have to write all stuff twice.
+                    The difference between Player and EnemyManager is that the PlayerManager has Locomotion, Inputs and Inventory systems in it the Enemy dont. Cause the Enemy has no Inventory for example.
+                    The Locomotion for the Enemy and the A.I. logic is in the A.I StateMachine script. A StateMachine has several "Phases" and every phase communicates with each other. For Example:
+                    The BaseClass StateMachine: 
+                    The IdleState
+                    The PursueTargetState
+                    The CombatStanceState
+                    The AttackState
+                    Every state has its logic in it and WHEN something specific happends switch to the other state and so on. For example IdleState does nothing EXCEPT. If Enemy targets player switch to PursueTargetState and so on and so on.
+                </p>
+                <p>
+                    The Enemy StateMachine works very well and is so easy to code and understand. That i have make a desicion.. I will refactor the whole code and work more with statemachines. So i will create a new project copypaste my scripts and code in the fresh project refactor it test it and go on.
+                    I will write the whole Player logic in a statemachine the whole Enemy logic in a statemachine. Aswell as the Enviorment and Gamelevel. This is all possilbe and a so mighty feature i need to use this.
+                </p>
+                <p>
+                    With this last words.. I have a shit whole of work to do... So... Bye i have no time at all for another blog post... :D.
+                </p>
+            </div>
+            <div class="author d-grid">
+                <div class="author-image-box">
+                    <img src="./screenshots/index.jpg" alt="" class="article-image">
+                </div>
+                <div class="author-about">
+                    <h3 class="author-name">Lukas Koch/Grudok</h3>
+                    <p>My name is Lukas Koch i am 27 years old and worked since i was 18 in the health sector. On my twenty-seventh birthday i desided to switch to the Software development.</p>
+                    <p>My girlfriend is my fan and supporter in this desicion and without her i would not be able to go this far. She is a true shieldmaiden who stands besides hers viking warrior friend.. :).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">LK Blogs</h2>
+                </a>
+                <p class="company-description">
+                    I am in no company i have no company aswell, programming is a hobbie at this state but it will change soon enough.
+                </p>
+                <span class="copyright-notice">&copy; 2022 LK. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title"></h6>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./javascript/main.js"></script>
+</body>
+</html>

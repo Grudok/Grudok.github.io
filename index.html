@@ -1,122 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"> <!--Defines the character encoding for the whloe web page.-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Defines meta rules for the web page.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Defines additional information attached to the web page. Defines the content of the metadata. This varies according to the name or http-equiv value.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Stylesheet for the webpage-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    
+    <title>LK Blogs | Home</title>
 
-    <title>mainpage</title>
-
-
+    <link rel= "icon" type="image/png" sizes="32x32" href="./screenshots/Coding.png" />
+    <link rel= "stylesheet" href="./css/style.css"/>
+    <link rel= "javascript" href="./javascript/main.js"/>
 </head>
+
 <body>
-    <header>
-        <!-- navigation starts -->
-        <div class ="container header">
-            <a href="#" class="logo">Lute/Grudok<span>.</span></a>
-            <div class="menueToggle">
+    <!--Header-->
+    <header class="header" id="header">
+
+        <nav.navbar.container>
+
+            <a href="./index.html">
+                <h2 class="logo">LK Blogs</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="navigation">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li class=""><a href="products/contact.html">Contact</a></li>
-            <li class=""><a href="products/about.html">About</a></li>
-            <li class=""><a href="products/blogs.html">Blogs</a></li>
-            </ul>
-        </nav>
+        </nav.navbar.container>
     </header>
-    </div>
-    <!-- navigation ends -->
 
-<!--main content starts-->
-    <main>
-    <div class="container main">
-        <!--columne1-->
-        <div class= "columne">
-         <div class="post">
-             <img class="index-image" src="./screenshots/index.jpg">
-             <div class="post-info">
-                 <h2>About me</h2>
-                 <div class="user-info">
-                     <span>Lukas Koch,</span>
-                     <span>April 13, 2022</span>
-                     <span>#SOCIAL</span>
-                 </div>
-                 <p>
-                    I worked as a nursing assistant for couple of years.
-                    Now i want to explore something new and the world of informatics has always been a big part of my life.
-                    I could never have imagined that theres is so much to learn and explore.
-                    I hope i get used to it as soon as possible i want to learn i want to create something.
-                    Something big something great.
-                 </p>
-             </div>
-         </div>  
-         <div class="post">
-            <img class="index-image" src="./screenshots/Help.png">
-            <div class="post-info">
-                <h2>About Help</h2>
-                <div class="user-info">
-                    <span>Lukas Koch,</span>
-                    <span>April 13, 2022</span>
-                    <span>#SOCIAL</span>
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Whats New?</span>
+                    </h3>
+                    <span class="headline-description">Alot...</span>
                 </div>
-                <p>
-                    The one and only "Closeenough" aka "Molerate" aka "Se Ape". Everytime i do not know what actualy happend
-                    i get lot of help from one of my besties. 
-                </p>
+
+                <a href="./blogs.html" class="article featured-article featured-article-1">
+                    <img src="./screenshots/Webpage.png" alt=""
+                         class="article-image">
+                    <span class="article-category">Blog</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>19.07.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>alot to read.. ^^</span>
+                        </div>
+
+                        <h3 class="title article-title">What happend since the last blog post and bevor the refactor of the whole webpage.</h3>
+
+                    </div>
+                </a>
+
+                <a href="./blogs.html" class="article featured-article featured-article-2">
+                    <img src="./screenshots/Gamescreenshot01.png" alt="" class="article-image">
+                    <span class="article-category">Blog</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>19.07.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>alot to read.. ^^</span>
+                        </div>
+
+                        <h3 class="title article-title">The Unity Project and all its horror.</h3>
+
+                    </div>
+                </a>
             </div>
-        </div>  
         </div>
-        <!--columne2-->
-        <div class= "columne">
-                <div class="post">
-                    <img class="index-image" src="./screenshots/Screenshot1.png">
-                    <div class="post-info">
-                        <h2>About UNITY</h2>
-                        <div class="user-info">
-                            <span>Lukas Koch,</span>
-                            <span>April 13, 2022</span>
-                            <span>#TECH</span>
-                        </div>
-                        <p>
-                            Thats my first level. I got the Asstes from Unity Assets Store, there are infinite possibilities.
-                            Its awesome to try out something new and i hope it will get started soon as a pre alpha version.
-                            Check out the links to the levels i created.
-                        </p>
-                    </div>
-                </div> 
-                <div class="post">
-                    <img class="index-image" src="./screenshots/Coding.png">
-                    <div class="post-info">
-                        <h2>About CODING</h2>
-                        <div class="user-info">
-                            <span>Lukas Koch,</span>
-                            <span>April 13, 2022</span>
-                            <span>#TECH</span>
-                        </div>
-                        <p>
-                           One of my Codes i write it with C#. At this time i visit an WIFI-Course about C# and thats
-                           one of the Projects. Its a lottery game. You can give a tipp and the computer will say to 
-                           you if you won something or not. 
-                        </p>
-                    </div>
-                </div>     
-        </div> 
-    </div>
-<!--main content ends-->
 
-<!--footer starts-->
-    <footer>
-    <div class="container footer">
-        <p>Lute/Grudok copyright 2022</p>
-    </div>
+    </section>
+
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">LK Blogs</h2>
+                </a>
+                <p class="company-description">
+                    I am in no company i have no company aswell, programming is a hobbie at this state but it will change soon enough.
+                </p>
+                <span class="copyright-notice">&copy; 2022 LK. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title"></h6>
+            </div>
+        </div>
     </footer>
-<!--footer ends-->
 
-</main>
+    <script src="./javascript/main.js"></script>
 </body>
 </html>
